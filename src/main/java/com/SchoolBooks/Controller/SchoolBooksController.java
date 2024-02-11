@@ -40,7 +40,7 @@ public class SchoolBooksController<book> {
     //Update book name
 
 
-    //Delete a book by book id
+    //Delete a book by book ID
     @DeleteMapping("Remove")
     public String removeBook(@RequestBody SchoolBooks Book) {
         return getAllBooksService.removeBook(Book);
